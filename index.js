@@ -4,8 +4,6 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var mongoDB = require('./data/db');
 
-// remove cors after dev
-
 var app = express();
 
 var Post = require('./models/post');
