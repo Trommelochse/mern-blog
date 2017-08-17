@@ -1,0 +1,120 @@
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+pre {
+  background: #edefed;
+  padding: 8px 7px;
+}
+
+textarea {
+  resize: vertical !important;
+}
+
+.brand-logo {
+  margin-left: 2rem;
+  display: inline-flex;
+}
+
+.brand-logo img {
+  vertical-align: top;
+  height: 60px;
+  margin-right: 0.5rem;
+  animation: rotate 40s linear infinite;
+  filter: grayscale(10%);
+}
+
+.nav-wrapper a i {
+  display: inline;
+  line-height: 60px;
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page {
+  margin-top: 2rem;
+}
+
+nav .btn-floating {
+  margin-left: 1rem;
+}
+
+nav .btn-floating i {
+  line-height: 41px;
+}
+
+.nav-spacer {
+  width: 2rem;
+}
+
+.post-body p, .post-body li {
+  font-size: 1.1em;
+}
+
+.post-top h2 {
+  font-size: 3rem;
+}
+
+.post-info {
+  margin: 1rem 0;
+}
+
+.post-date {
+  font-size: 0.8rem;
+}
+
+.post-body h4 {
+  font-size: 1.8rem;
+}
+
+.post-body ul {
+  padding-left: 2rem;
+}
+
+.post-body ul li {
+  list-style: disc;
+}
+
+a .card-content  {
+  color: #000;
+  transition: 150ms;
+}
+
+a:hover .card-content .post-preview-title  {
+  color: #0277bd;
+}
+
+.post-preview-title {
+  font-size: 1.25rem;
+}
+
+.post-preview-subtitle {
+  font-weight: 300;
+}
+
+.post-preview .card-action span {
+  cursor: pointer;
+}
+
+.post-dashboard {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.post-dashboard a {
+  align-self: flex-start;
+}
+
+.post-dashboard .card {
+  margin: 1rem;
+  max-width: 18rem;
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
