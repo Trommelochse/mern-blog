@@ -5,7 +5,7 @@ import axios from 'axios';
 const AppActions = {
 
   fetchPosts: () => {
-    axios.get('http://localhost:5000/api/posts')
+    axios.get('/api/posts')
     .then( response => {
       const posts = response.data;
       posts.sort((a,b) => a.createdAt < b.createdAt);

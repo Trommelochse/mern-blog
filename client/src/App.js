@@ -49,8 +49,6 @@ class App extends Component {
     });
   }
 
-  onSelectPost
-
   render() {
     if (!this.state.posts.length) { return (<p>loading...</p>) }
     return (

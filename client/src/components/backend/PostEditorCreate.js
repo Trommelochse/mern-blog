@@ -30,7 +30,7 @@ class PostEditorCreate extends Component {
     const createdAt = Date.now();
     const post = {title, subtitle, body, tags, createdAt};
     console.log(post);
-    axios.post('http://localhost:5000/api/posts/new', post)
+    axios.post('/api/posts/new', post)
     .then((response) => {
       const id = response.data._id;
       // window.location = '/posts/' + id;
