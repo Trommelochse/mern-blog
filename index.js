@@ -5,7 +5,6 @@ var bodyParser = require('body-parser');
 var mongoDB = require('./data/db');
 
 // remove cors after dev
-var cors = require('cors');
 
 var app = express();
 
@@ -13,7 +12,6 @@ var Post = require('./models/post');
 
 var port = process.env.PORT || 5000;
 
-app.use(cors());
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
